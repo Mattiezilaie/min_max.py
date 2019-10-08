@@ -8,7 +8,7 @@ min = 0
 max = 0
 user_value = int(input('How many integers would you like to enter?'))
 print(user_value)
-print("Please enter", user_value, "integer")
+print("Please enter", user_value, "integers.")
 min = user_value
 max = user_value
 for len in range(user_value):
@@ -18,5 +18,5 @@ for len in range(user_value):
         min = numbs
     if (numbs>max):
         max=numbs
-print("Min:", min)
-print("Max:", max)
+print("min:", min)
+print("max:", max)
