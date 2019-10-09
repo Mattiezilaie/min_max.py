@@ -16,10 +16,9 @@ for len in range(user_value):
     if len ==0:
         max = numbs
         min = numbs
-
-if (numbs<min):
-    min = numbs
-elif (numbs>max):
-    max=numbs
+    elif(numbs<min):
+        min = numbs
+    elif (numbs>max):
+        max=numbs
 print("min:", min)
 print("max:", max)
